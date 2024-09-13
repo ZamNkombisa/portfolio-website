@@ -1,0 +1,58 @@
+{
+  "skills": [
+    {
+      "id": "1",
+      "src": "./Assets/frontend-icon.png",
+      "title": "Front-End",
+      "description": "I am a skilled Frontend Developer with a strong foundation in creating responsive and visually appealing web applications. I specialize in bring designs to life, ensuring a seamless and intuitive user experience."
+    },
+    {
+      "id": "2",
+      "src": "./Assets/backend-icon.png",
+      "title": "Back-End",
+      "description": "I am a proficient Backend Developer with expertise in building and maintaining the server-side logic that powers web applications. I am adept at working with databases to manage data efficiently."
+    },
+    {
+      "id": "3",
+      "src": "./Assets/git-icon.png",
+      "title": "Version Controll",
+      "description": "I am highly skilled in using version control systems, particularly Git, to manage and track changes in codebases efficiently. I am proficient in branching and merging, to ensure a smooth development process."
+    },
+    {
+      "id": "4",
+      "src": "./Assets/deployment-icon.png",
+      "title": "Debugging and Deployment",
+      "description": "I am adept at debugging code to identify and resolve issues quickly and logging to ensure smooth functionality across the application. My deployment experience includes managing environments, and deploying applications."
+    }
+  ],
+  "projects": [
+    {
+      "id": "1",
+      "src": "./Assets/project1-image.jpg",
+      "title": "Car Inventory",
+      "description": "Car Inventory is an application to manage a collection of cars. It includes features such as adding new cars, viewing detailed information about each car (e.g., make, model, year, registration), updating car details, and removing cars from the inventory. The application simplifies the process of tracking available cars, making it useful for dealerships.",
+      "link": "https://car-inventory-client.onrender.com/"
+    },
+    {
+      "id": "2",
+      "src": "./Assets/project2-image.png",
+      "title": "Denim Corner",
+      "description": "Denim Corner e-commerce website is a specialized online store that exclusively sells denim wear. It offers a curated collection of denim products, including jeans, jackets, shirts for men, women and kids. The site provides a user-friendly shopping experience, featuring high-quality product images, detailed descriptions, and size guides to help customers make informed purchases.",
+      "link": "https://denim-corner.vercel.app/"
+    },
+    {
+      "id": "3",
+      "src": "./Assets/project3-image.png",
+      "title": "Hangman Game",
+      "description": "The Hangman game is a classic word-guessing game where players try to identify a hidden word by guessing one letter at a time. The word is represented by a series of blank spaces, and with each incorrect guess, a part of a stick figure is drawn on a scaffold. Players must guess the word before the entire figure is completed.",
+      "link": "https://hangman-e8ww.onrender.com"
+    },
+    {
+      "id": "4",
+      "src": "./Assets/project4-image.png",
+      "title": "iTunes Search App",
+      "description": "iTunes Search App allows users to quickly and easily search for music, podcasts, movies, and TV shows from the vast iTunes library. Users can enter a keyword to find their favorite content, and the app retrieves detailed information such as album or show artwork, artist or creator names. The app features search filters like genre, media type, and popularity to refine results.",
+      "link": "https://apple-search.onrender.com"
+    }
+  ]
+}
