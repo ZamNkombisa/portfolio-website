@@ -4,8 +4,8 @@ import { Link } from "react-scroll";
 function Navbar() {
   const [navActive, setNavActive] = useState(false);
 
-  const toogleNav = () => {
-    setNavActive(!navActive);
+  const toggleNav = () => {
+    setNavActive(prev => !prev);
   };
 
   const closeMenu = () => {
@@ -14,8 +14,8 @@ function Navbar() {
 
   useEffect(() => {
     const handleResize = () => {
-      if (window.innerWidth <= 500) {
-        closeMenu();
+      if (window.innerWidth > 1200) {
+        setNavActive(false);
       }
     };
 
@@ -26,26 +26,22 @@ function Navbar() {
     };
   }, []);
 
-  useEffect(() => {
-    if (window.innerWidth <= 1200) {
-      closeMenu();
-    }
-  }, []);
-
   return (
-    <nav className={`navbar ${navActive ? "active" : ""}`}>
+    <nav className={`navbar`}>
       <div className="my-name">
-        <img src="./Assets/z-logo.png" alt="logo" /> <h1>amuxolo</h1>
+        <img src="./Assets/z-logo.png" alt="logo" />
+        <h1>amuxolo</h1>
       </div>
-      <a
-        href="/navbar"
+
+      <div
         className={`navbar_hamburger ${navActive ? "active" : ""}`}
-        onClick={toogleNav}
+        onClick={toggleNav}
       >
         <span className="nav_hamburger_line"></span>
         <span className="nav_hamburger_line"></span>
         <span className="nav_hamburger_line"></span>
-      </a>
+      </div>
+
       <div className={`navbar-items ${navActive ? "active" : ""}`}>
         <ul>
           <li>
@@ -105,17 +101,19 @@ function Navbar() {
             </Link>
           </li>
         </ul>
+        <Link
+          onClick={closeMenu}
+          activeClass="navbar--active-content"
+          spy={true}
+          smooth={true}
+          offset={-70}
+          duration={500}
+          to="Contact"
+          className="btn btn-outline-primary"
+        >
+          Contact
+        </Link>
       </div>
-      <Link onClick={closeMenu}
-              activeClass="navbar--active-content"
-              spy={true}
-              smooth={true}
-              offset={-70}
-              duration={500}
-              to="Contact"
-              className="btn btn-outline-primary"
-            >
-              Contact Me</Link>
     </nav>
   );
 }

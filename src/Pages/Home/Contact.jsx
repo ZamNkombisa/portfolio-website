@@ -27,9 +27,8 @@ export default function Contact() {
     if (successMessage) {
       const timer = setTimeout(() => {
         setSuccessMessage('');
-      }, 3000); // Clear message after 2000 milliseconds
+      }, 3000);
 
-      // Cleanup the timeout if the component unmounts before timeout completes
       return () => clearTimeout(timer);
     }
   }, [successMessage]);

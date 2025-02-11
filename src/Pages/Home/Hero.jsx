@@ -9,9 +9,16 @@ export default function Hero() {
                         <br />
                         Web Developer
                     </h1>
-                    <p className="desc">I enjoy building and maintaining dynamic, responsive and user-friendly websites and web applications.</p>
+                    <p className="hero-section-description">I enjoy building and maintaining dynamic, responsive and user-friendly websites and web applications.</p>
                 </div>
-                <p className="read-more">Read More in About Section</p>
+                <div className="tech-stack">
+                    <p>Tech Stack</p>
+                    <ul>
+                        <li>
+                            <img src="https://skillicons.dev/icons?i=html,css,javascript,nodejs,express,react,next,mongodb" alt="skills-icons" />
+                        </li>
+                    </ul>
+                </div>
             </div>
             <div className="hero-section-image">
                 <img src="./Assets/ZamPicture.png" alt="" />
