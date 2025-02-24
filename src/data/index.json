@@ -45,7 +45,7 @@
       "src": "./Assets/project3-image.png",
       "title": "Hangman Game",
       "description": "The Hangman game is a classic word-guessing game where players try to identify a hidden word by guessing one letter at a time. The word is represented by a series of blank spaces, and with each incorrect guess, a part of a stick figure is drawn on a scaffold. Players must guess the word before the entire figure is completed.",
-      "link": "https://hangman-e8ww.onrender.com"
+      "link": "https://my-hangman.onrender.com"
     },
     {
       "id": "4",
