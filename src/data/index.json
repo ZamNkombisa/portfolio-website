@@ -28,10 +28,10 @@
   "projects": [
     {
       "id": "1",
-      "src": "./Assets/project1-image.jpg",
-      "title": "Car Inventory",
-      "description": "Car Inventory is an application to manage a collection of cars. It includes features such as adding new cars, viewing detailed information about each car (e.g., make, model, year, registration), updating car details, and removing cars from the inventory. The application simplifies the process of tracking available cars, making it useful for dealerships.",
-      "link": "https://car-inventory-client.onrender.com/"
+      "src": "./Assets/project1-image.png",
+      "title": "Crypto Pulse",
+      "description": "Crypto Pulse is a sleek and intuitive cryptocurrency tracking dashboard designed to provide real-time insights into the ever-evolving crypto market. Crypto Pulse aims to offer crypto enthusiasts, investors, and traders a simple yet powerful tool to monitor cryptocurrency trends in real time",
+      "link": "https://crypto-pulse-sigma.vercel.app"
     },
     {
       "id": "2",
@@ -50,8 +50,8 @@
     {
       "id": "4",
       "src": "./Assets/project4-image.png",
-      "title": "iTunes Search App",
-      "description": "iTunes Search App allows users to quickly and easily search for music, podcasts, movies, and TV shows from the vast iTunes library. Users can enter a keyword to find their favorite content, and the app retrieves detailed information such as album or show artwork, artist or creator names. The app features search filters like genre, media type, and popularity to refine results.",
+      "title": "iTunes OmniSearch",
+      "description": "iTunes OmniSearch allows users to quickly and easily search for music, podcasts, movies, and TV shows from the vast iTunes library. Users can enter a keyword to find their favorite content, and the app retrieves detailed information such as album or show artwork, artist or creator names. The app features search filters like genre, media type, and popularity to refine results.",
       "link": "https://apple-search.onrender.com"
     }
   ]
